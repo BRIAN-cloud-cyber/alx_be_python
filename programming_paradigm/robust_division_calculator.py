@@ -10,4 +10,4 @@ def safe_divide(numerator,denominator):
     except ZeroDivisionError:
         return("Error: division by zero is not allowed ")
 
-print(safe_divide(10,0))
+print(safe_divide(12,4))
