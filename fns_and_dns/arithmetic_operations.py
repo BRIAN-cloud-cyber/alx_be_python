@@ -11,5 +11,5 @@ def perform_operation(num1:float ,num2:float,operation:str ):
         except ZeroDivisionError:
             return ("Invalid Values")
      
-perform_operation()
+print(perform_operation(12,35,"add"))
 
