@@ -8,6 +8,6 @@ def safe_divide(numerator,denominator):
         return ("Invalid input: Please provide a numeric value")
 
     except ZeroDivisionError:
-        return("Error: division by zero is not allowed ")
+        return("Error: Cannot divide by zero.")
 
 print(safe_divide(12,4))
