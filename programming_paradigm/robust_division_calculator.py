@@ -5,9 +5,9 @@ def safe_divide(numerator,denominator):
         result=num/den
         return result
     except ValueError:
-        return ("Invalid input: Please provide a numeric value")
+        return ("Error: Please enter numeric values only.")
 
     except ZeroDivisionError:
-        return("Error: division by zero is not allowed ")
+        return("Error: Cannot divide by zero.")
 
 print(safe_divide(12,4))
